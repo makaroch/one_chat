@@ -6,7 +6,7 @@ services:
     container_name: postgres_db
     restart: always
     volumes:
-      - /root/py_pr/bot_db_data:/var/lib/postgresql/data
+      - /home/ncuser/py_prodg/one_chat_db:/var/lib/postgresql/data
     env_file:
       - .env
 
